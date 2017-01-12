@@ -1,0 +1,6 @@
+framework module Ogg_tvOS {
+  umbrella header "Ogg_tvOS.h"
+
+  export *
+  module * { export * }
+}

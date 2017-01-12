@@ -1,0 +1,6 @@
+framework module Ogg_macOS {
+  umbrella header "Ogg_macOS.h"
+
+  export *
+  module * { export * }
+}

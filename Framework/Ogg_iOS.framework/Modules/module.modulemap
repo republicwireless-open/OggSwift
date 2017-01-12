@@ -1,0 +1,6 @@
+framework module Ogg_iOS {
+  umbrella header "Ogg_iOS.h"
+
+  export *
+  module * { export * }
+}
