@@ -28,10 +28,10 @@
 		DD527ACB1E2825C2000E218C /* Ogg_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DD527AC91E2825C2000E218C /* Ogg_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD527ACF1E2825E9000E218C /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F236509181ABE00AB638C /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD527AD01E2825E9000E218C /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F236609181ABE00AB638C /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD527AD11E2825EA000E218C /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F236509181ABE00AB638C /* ogg.h */; };
-		DD527AD21E2825EA000E218C /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F236609181ABE00AB638C /* os_types.h */; };
-		DD527AD31E2825EB000E218C /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F236509181ABE00AB638C /* ogg.h */; };
-		DD527AD41E2825EB000E218C /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F236609181ABE00AB638C /* os_types.h */; };
+		DD527AD11E2825EA000E218C /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F236509181ABE00AB638C /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD527AD21E2825EA000E218C /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F236609181ABE00AB638C /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD527AD31E2825EB000E218C /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F236509181ABE00AB638C /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD527AD41E2825EB000E218C /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F236609181ABE00AB638C /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD527AD51E2825EE000E218C /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = 730F236109181A8D00AB638C /* bitwise.c */; };
 		DD527AD61E2825EE000E218C /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 730F236209181A8D00AB638C /* framing.c */; };
 		DD527AD71E2825EE000E218C /* Ogg_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32BAE0B70371A74B00C91783 /* Ogg_Prefix.pch */; };
@@ -209,8 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD527AD31E2825EB000E218C /* ogg.h in Headers */,
-				DD527ADD1E2825F0000E218C /* Ogg_Prefix.pch in Headers */,
 				DD527AD41E2825EB000E218C /* os_types.h in Headers */,
+				DD527ADD1E2825F0000E218C /* Ogg_Prefix.pch in Headers */,
 				DD527ABE1E282199000E218C /* Ogg_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -975,6 +975,7 @@
 				DD527ACE1E2825C2000E218C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD527B0A1E283EBC000E218C /* Build configuration list for PBXAggregateTarget "Build Frameworks" */ = {
 			isa = XCConfigurationList;
@@ -983,6 +984,7 @@
 				DD527B0C1E283EBC000E218C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
